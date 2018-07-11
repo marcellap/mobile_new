@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Camera</string>
+    <string name="scatta_foto">Snap a photo</string>
+    <string name="nome">Name</string>
+    <string name="bio">Bio</string>
+    <string name="tel">Phone</string>
+    <string name="email">Email</string>
+    <string name="photo">Photo</string>
+    <string name="editRif">Inserire il rifornimento</string>
+    <string name="Rifornimento">Rifornimento</string>
+    <string name="Importo">Importo</string>
+    <string name="save">Save</string>
+    <string name="editProfile">Inserire i propri dati</string>
+    <string name="showProfile">Dati personali</string>
+    <string name="showListRif">Lista rifornimenti</string>
+</resources>

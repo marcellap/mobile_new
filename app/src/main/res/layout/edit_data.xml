@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:textSize="30dp"
+        android:textColorHint="@color/grey"
+        android:text="@string/editRif"/>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Rifornimento"
+        android:textColor="@color/green"/>
+    <EditText
+        android:id="@+id/editRifornimento"
+        android:inputType="text"
+        android:textColor="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Importo"
+        android:textColor="@color/green"/>
+    <EditText
+        android:id="@+id/editImporto"
+        android:inputType="numberDecimal"
+        android:textColor="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnEditData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:background="@color/grey"
+        android:textColor="@color/white" />
+</LinearLayout>

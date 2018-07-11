@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:textSize="20dp"
+        android:textColorHint="@color/grey"
+        android:text="@string/editProfile"/>
+
+   <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_below="@id/txtTitolo"
+        android:text="@string/photo"/>
+
+    <Button
+        android:id="@+id/buttonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_alignBottom="@id/imageView"
+        android:text="@string/scatta_foto" />
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView"
+        android:layout_below="@id/imageView"
+        android:text="@string/nome" />
+    <EditText
+        android:id="@+id/editName"
+        android:inputType="text"
+        android:layout_below="@id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/txtBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:text="@string/bio"/>
+    <EditText
+        android:id="@+id/editBio"
+        android:inputType="text"
+        android:layout_below="@id/txtBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editBio"
+        android:text="@string/tel"/>
+    <EditText
+        android:id="@+id/editTel"
+        android:inputType="number"
+        android:hint="tel placeholder"
+        android:layout_below="@id/txtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTel"
+        android:text="@string/email"/>
+    <EditText
+        android:id="@+id/editEmail"
+        android:inputType="textEmailAddress"
+        android:hint="email placeholder"
+        android:layout_below="@id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnEditData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:text="@string/save"/>
+</RelativeLayout>
